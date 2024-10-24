@@ -146,7 +146,7 @@ void lb_board(struct lb_header *header)
 		.opt_name	= "power_profile",
 		.ui_name	= "Power Profile",
 		.ui_helptext	= "Select whether to maximize performance, battery life or both.",
-		.default_value	= 1,
+		.default_value	= 2,
 		.values	= (const struct sm_enum_value[]) {
 			{ "Power Saver",	PP_POWER_SAVER	},
 			{ "Balanced",		PP_BALANCED	},
