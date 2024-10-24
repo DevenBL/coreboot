@@ -89,7 +89,7 @@ void lb_board(struct lb_header *header)
 		.opt_name	= "lid_switch",
 		.ui_name	= "Lid Switch",
 		.ui_helptext	= "Enable or disable the lid switch.",
-		.default_value	= 0,
+		.default_value	= 1,
 		.values = (const struct sm_enum_value[]) {
 			{ "Enabled",		0	},
 			{ "Disabled",		1	},
@@ -168,7 +168,7 @@ void lb_board(struct lb_header *header)
 		.opt_name	= "memory_speed",
 		.ui_name	= "Memory Speed",
 		.ui_helptext	= "Configure the speed that the memory will run at. Higher speeds produce more heat and consume more power but provide higher performance.",
-		.default_value	= 0,
+		.default_value	= 2,
 		.values		= (const struct sm_enum_value[]) {
 			{	"5500MT/s",	0		},
 			{	"6400MT/s",	1		},
